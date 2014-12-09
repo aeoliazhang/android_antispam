@@ -1,0 +1,91 @@
+<resources>
+
+    <string name="txt_title_spam">Protect yourself against unwanted calls and texts.</string>
+    <string name="title_activity_main">Anti Spam</string>
+    <string name="app_name">Anti Spam</string>
+    <string name="anti_block_history">Block History</string>
+    <string name="anti_black_list">Block List</string>
+    <string name="anti_white_list">Allow List</string>
+    <string name="anti_settings">Settings</string>
+    <string name="anti_block_disabled">Blocking disabled</string>
+    <string name="anti_blocked_list_enable">Block list enabled</string>
+    <string name="anti_allowed_list_enable">Allow list enabled</string>
+    <string name="anti_allowed_list_and_contacts_enable">Allow list + contacts</string>
+    <string name="anti_add">Add</string>
+    <string name="anti_loading">loading&#8230;</string>
+    
+    <string name="anti_tone_busy">The busy tone</string>
+    <string name="anti_tone_empty_number">The empty number tone</string>
+    <string name="anti_tone_shut_down">The power off tone</string>
+    <string name="anti_tone_phone_down">The phone out of service tone</string>
+    
+    <string name="anti_add_from_calllog">From Call History</string>
+    <string name="anti_add_from_contacts">From Contacts</string>
+    <string name="anti_add_from_sms">From Inbox Messages</string>
+    <string name="anti_add_manually">Input Number</string>
+    <string name="anti_remove">Remove</string>
+    <string name="anti_clear">Clear</string>
+    <string name="anti_ok">OK</string>
+    <string name="anti_delete">Delete</string>
+    <string name="anti_remove_message">Are you sure to remove?</string>
+    <string name="anti_clear_message">Are you sure to clear?</string>
+    <string name="anti_delete_message">Are you sure to delete?</string>
+    <string name="anti_nothing">Nothing yet&#8230;</string>
+    <string name="anti_to_add">Click here to add</string>
+    <string name="anti_no_black_list">"Your block list is empty.
+\n
+Calls and messages from blocked numbers will be intercepted by Mobile Security. Blocked numbers won't appear in your call or message history.\n
+Remember to enable your block list under settings."</string>
+    <string name="anti_no_allow_list">"Your allow list is empty.\n
+Calls and messages from numbers not on this list can be intercepted by Mobile Security. Blocked numbers won't appear in your call or message history.\n
+Remember to enable blocking calls under settings."</string>
+    
+    <!-- settings -->
+    <string name="anti_enable_blocker">Block unwanted numbers</string>
+    <string name="anti_block_black_list">Block numbers on my block list</string>
+    <string name="anti_accept_white_list">Allow only numbers on my allow list</string>
+    <string name="anti_accept_white_list_contacts">Allow only my contacts and allow list</string>
+    <string name="anti_settings_add_button">Add</string>
+    
+    <!-- history -->
+    <string name="anti_calllog_tab">Calls</string>
+    <string name="anti_sms_tab">Messages</string>
+    <string name="anti_empty_all_calllog">Clear History</string>
+    <string name="anti_empty_all_sms">Delete Messages</string>
+    <string name="anti_empty_all_calllog_title">Clear History?</string>
+    <string name="anti_empty_all_sms_title">Delete All Messages</string>
+    <string name="anti_empty_all_calllog_message">Your block history will be cleared.</string>
+    <string name="anti_empty_all_sms_message">All of your blocked messages will be deleted.</string>
+    
+    
+    <!-- add manually -->
+    <string name="anti_input_msg">Input the number</string>
+    <string name="anti_hint_name">Name(optional)</string>
+    <string name="anti_hint_phone">Phone Number</string>
+    <string name="anti_save">Save</string>
+    <string name="anti_cancel">Cancel</string>
+    <string name="anti_add_manually_title">Input Number</string>
+    <string name="anti_add_failed">Add failed!
+        The number already exist.</string>
+        
+    <!-- add call history  or message history or contacts history-->
+    <string name="anti_add_from_call_log_title">Add From Call History</string>
+    <string name="anti_add_from_sms_title">Add From Messages</string>
+    <string name="anti_add_from_contact_title">Add From Contacts</string>
+    
+    <string name="anti_no_sms">No Messages</string>
+    <string name="anti_add_blocklist_no_messages_msg">Your message history is empty. Try adding numbers another way.</string>
+    <string name="anti_add_allowlist_no_messages_msg">Your message history is empty. Try adding numbers another way.</string>
+    <string name="anti_no_calllog">No Call History</string>
+    <string name="anti_add_blocklist_no_calllog_msg">Your device has no call history.Please select other methods to add block list.</string>
+    <string name="anti_add_allowlist_no_calllog_msg">Your device has no call history.Please select other methods to add allow list.</string>
+    <string name="anti_no_contacts">No Contacts</string>
+    <string name="anti_add_blocklist_no_contacts_msg">Your device has no contacts.Please select other methods to add block list.</string>
+    <string name="anti_add_allowlist_no_contacts_msg">Your device has no contacts.Please select other methods to add allow list.</string>
+    <string name="anti_btn_select_method">Select Method</string>
+    <string name="anti_notifaction_msg">%1$d message(s) and %2$d call(s) are blocked</string>
+    
+      
+    
+    
+</resources>

@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="style_button">
+        <item name="android:textSize">@dimen/anti_textsize_18sp</item>
+        <item name="android:textColor">@color/anti_color_black</item>
+        <item name="android:background">@drawable/button_white_edge_sel</item>
+        <item name="android:layout_marginLeft">@dimen/anti_margin_10dip</item>
+        <item name="android:layout_marginRight">@dimen/anti_margin_10dip</item>
+        <item name="android:layout_marginBottom">@dimen/anti_margin_10dip</item>
+        <item name="android:layout_height">@dimen/anti_margin_40dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+   	<style name="style_alert_button">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/alert_button_selector</item>
+        <item name="android:dateTextAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/alert_dialog_bg</item>   
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+		<!--  <item name="android:windowBackground">@null</item>  
+		<item name="android:windowNoTitle">true</item>  
+		<item name="android:windowIsFloating">true</item>  -->
+	</style>
+	
+    <style name="SmsContentDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/anti_color_transparence</item>   
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+		<!--  <item name="android:windowBackground">@null</item>  
+		<item name="android:windowNoTitle">true</item>  
+		<item name="android:windowIsFloating">true</item>  -->
+	</style>
+	
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowNoTitle">true</item>  
+    </style>
+    
+</resources>

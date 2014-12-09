@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/anti_color_white" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">    
+    <LinearLayout android:id="@+id/layout_add"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/anti_margin_60dip" 
+        android:baselineAligned="false"
+        android:layout_alignParentBottom="true">
+        <Button android:id="@+id/btn_allow_add" 
+            android:layout_width="wrap_content" 
+            android:layout_weight="1" 
+            android:text="@string/anti_settings_add_button"  
+            style="@style/style_button" 
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/anti_margin_10dip"
+            />
+        <Button android:id="@+id/btn_allow_clear" 
+            android:layout_width="wrap_content" 
+            android:layout_weight="1"
+            android:text="@string/anti_clear"  
+            style="@style/style_button" 
+            android:layout_gravity="center_vertical"
+            android:textColor="@drawable/button_text"
+            android:layout_marginTop="@dimen/anti_margin_10dip"
+            android:layout_marginLeft="@dimen/anti_margin_2dip"
+            />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" 
+	    android:id="@+id/layout_allow_list" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:layout_above="@id/layout_add">
+        <ListView android:id="@+id/lv_white_list" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:cacheColorHint="#00000000" 
+	        android:divider="@color/anti_color_list_divider" 
+	        android:dividerHeight="@dimen/anti_divider_height" 
+	        android:headerDividersEnabled="false" 
+	        android:footerDividersEnabled="true" />
+        <RelativeLayout
+		    android:id="@+id/no_allow_name_layout"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical">
+		    <TextView android:id="@+id/no_allow_name"
+		        android:layout_below="@id/no_allow_name_layout"
+	            android:textSize="@dimen/anti_textsize_18sp" 
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:gravity="left"
+		        android:text="@string/anti_no_allow_list"  />
+		    <FrameLayout android:orientation="vertical" 
+		        android:layout_alignBottom="@id/no_allow_name"
+		        android:layout_alignParentBottom="true"
+			    android:layout_width="fill_parent" 
+			    android:minHeight="100dp"
+			    android:layout_height="wrap_content" >
+			    <TextView android:id="@+id/text_view_click_tip"
+		            android:textSize="@dimen/anti_textsize_20sp" 
+			        android:textColor="@color/anti_color_green" 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center"
+			        android:paddingLeft="@dimen/anti_margin_22dip"
+			        android:gravity="center"
+			        android:rotation="-12"
+			        android:text="@string/anti_to_add"  />
+			    <ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"           
+		            android:contentDescription="@null"
+		            android:layout_marginLeft="70dp"
+		            android:layout_marginTop="50dp"
+		            android:src="@drawable/anti_add_line" 
+		            android:layout_gravity="center_horizontal" />
+		    </FrameLayout>
+		</RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

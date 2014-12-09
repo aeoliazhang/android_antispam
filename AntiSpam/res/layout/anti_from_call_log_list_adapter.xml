@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/call_log_adapter_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_selector" 
+    android:clickable="true"
+    android:focusable="true"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+  	<ImageView android:id="@+id/image_calllog_type" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginLeft="@dimen/anti_margin_9dip" 
+    	android:scaleType="center"
+    	android:layout_alignParentLeft="true" 
+    	android:layout_centerVertical="true" 
+    	android:contentDescription="@null"/>
+    <CheckBox android:id="@+id/checked_add" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginRight="@dimen/anti_margin_10dip" 
+    	android:button="@drawable/checkbox_checked_style" 
+    	android:layout_alignParentRight="true" 
+    	android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="@dimen/anti_margin_12dip" 
+        android:layout_toRightOf="@id/image_calllog_type" 
+        android:layout_toLeftOf = "@id/checked_add" 
+        android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/text_calllog_name"
+                android:textSize="@dimen/anti_textsize_18sp" 
+                android:textColor="@color/anti_color_dark_grey" 
+                android:ellipsize="marquee" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_marginRight="@dimen/anti_margin_50dip" 
+                android:singleLine="true" 
+                android:layout_alignParentLeft="true" 
+                android:layout_centerVertical="true" 
+                android:marqueeRepeatLimit="0" 
+                android:text="13472479059"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/text_calllog_date"
+                android:textSize="@dimen/anti_textsize_12sp" 
+                android:textColor="@color/anti_color_light_grey3" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_marginRight="@dimen/anti_margin_11dip" 
+                android:layout_alignParentRight="true" 
+                android:layout_centerVertical="true" 
+                android:text="2012-12-07"/>
+            <TextView android:id="@+id/text_calllog_number" 
+                android:textSize="@dimen/anti_textsize_12sp" 
+                android:textColor="@color/anti_color_light_grey3" 
+                android:ellipsize="marquee" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_marginRight="@dimen/anti_margin_11dip" 
+                android:singleLine="true" 
+                android:layout_toLeftOf="@id/text_calllog_date" 
+                android:layout_alignParentLeft="true" 
+                android:layout_centerVertical="true" 
+                android:marqueeRepeatLimit="0" 
+                android:text="33333"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/layout_black_list" 
+    android:background="@drawable/list_selector" 
+    android:padding="@dimen/anti_margin_9dip" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/icon_black_list" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/icon_blcok_list" 
+        android:layout_alignParentLeft="true" 
+        android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/anti_textsize_18sp" 
+        android:textColor="@color/anti_color_dark_grey" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="@dimen/anti_margin_11dip" 
+        android:text="@string/anti_black_list" 
+        android:layout_toRightOf="@id/icon_black_list" 
+        android:layout_centerVertical="true" />
+    <ImageView android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/icon_arrow" 
+        android:layout_alignParentRight="true" 
+        android:layout_centerVertical="true" />
+</RelativeLayout>

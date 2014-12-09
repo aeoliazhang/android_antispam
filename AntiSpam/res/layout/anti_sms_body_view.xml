@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smsBodyLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pic_sms_body_normal"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/smsBodyTextView"
+        android:textSize="@dimen/anti_textsize_18sp" 
+        android:textColor="@color/anti_color_dark_grey" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_margin="@dimen/anti_margin_10dip"
+        android:singleLine="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="dfs" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#fffefefe</color>
+    <color name="title_bg">#22ccff99</color>
+    <color name="anti_color_list_divider">#ffd9d9d9</color>
+    <color name="anti_color_dark_grey">#ff333333</color>
+    <color name="anti_color_white">#ffffffff</color>
+    <color name="anti_color_green">#ff84a239</color>
+    <color name="anti_color_light_grey">#ff999999</color>
+    <color name="anti_color_light_grey2">#ffa0a0a0</color>
+    <color name="anti_color_light_grey3">#ffb5b5b5</color>
+    <color name="anti_color_black">#ff000000</color>
+    <color name="anti_color_Red">#ffff0000</color>
+    <color name="anti_color_yellow">#fff0f2c3</color>
+    <color name="anti_color_radiobutton_unselected">#ffaaaaaa</color>
+    <color name="anti_color_settings_group_bg">#fff4f5f7</color>
+    <color name="anti_color_hint">#ffcfcfcf</color>
+    <color name="anti_color_text_disable">#ffdac9d4</color>
+    <color name="anti_color_text_title">#ff773660</color>
+    <color name="anti_color_edit_text">#ff707070</color>
+    <color name="anti_color_disable">#ffcfcfcf</color>
+    <color name="anti_color_transparence">#00000000</color>
+    <!-- history -->
+    <color name="anti_history_tab_bg">#ff84a239</color>
+    
+
+    <!-- alert dialog custom-->
+    <drawable name="alert_button_bg_normal">#00000000</drawable>
+    <drawable name="alert_button_bg_pressed">#ff84a239</drawable>
+    <drawable name="alert_button_divider">#ffd9d9d9</drawable>
+    <drawable name="alert_item_bg_selected">#ff84a239</drawable>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/anti_color_white" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">    
+    <RelativeLayout android:id="@+id/layout_delete_call"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/anti_margin_60dip" 
+        android:baselineAligned="false"
+        android:layout_alignParentBottom="true">
+        <Button android:id="@+id/btn_delete_call" 
+            android:layout_width="fill_parent"  
+            android:layout_alignParentBottom="true"
+            android:text="@string/anti_empty_all_calllog"  
+            android:textColor="@drawable/button_text"
+            style="@style/style_button" />
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" 
+	    android:id="@+id/layout_history_call_list" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:layout_above="@id/layout_delete_call">
+        <ListView android:id="@+id/list_history_call" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:cacheColorHint="#00000000" 
+	        android:divider="@color/anti_color_list_divider" 
+	        android:dividerHeight="@dimen/anti_divider_height" 
+	        android:headerDividersEnabled="true" 
+	        android:footerDividersEnabled="true" />
+        <TextView android:id="@+id/no_record_call"
+            android:textSize="@dimen/anti_textsize_22sp" 
+	        android:textColor="@color/anti_color_light_grey" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:text="@string/anti_nothing"  />
+    </FrameLayout>
+</RelativeLayout>

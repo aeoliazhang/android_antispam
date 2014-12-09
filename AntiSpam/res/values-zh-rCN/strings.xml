@@ -1,0 +1,87 @@
+<resources>
+
+    <string name="txt_title_spam">让您远离骚扰电话和垃圾短信。</string>
+    <string name="title_activity_main">骚扰拦截</string>
+    <string name="app_name">骚扰拦截</string>
+    <string name="anti_block_history">拦截记录</string>
+    <string name="anti_black_list">黑名单</string>
+    <string name="anti_white_list">白名单</string>
+    <string name="anti_settings">拦截设置</string>
+    <string name="anti_block_disabled">关闭拦截</string>
+    <string name="anti_blocked_list_enable">拦截黑名单</string>
+    <string name="anti_allowed_list_enable">接受白名单</string>
+    <string name="anti_allowed_list_and_contacts_enable">接受白名单和联系人</string>
+    <string name="anti_add">添加</string>
+    <string name="anti_loading">加载中…</string>
+    
+    <string name="anti_tone_busy">返回忙音</string>
+    <string name="anti_tone_empty_number">返回空号</string>
+    <string name="anti_tone_shut_down">返回已关机</string>
+    <string name="anti_tone_phone_down">返回已停机</string>
+    
+    <string name="anti_add_from_calllog">从通话记录添加</string>
+    <string name="anti_add_from_contacts">从联系人添加</string>
+    <string name="anti_add_from_sms">从短信收件箱添加</string>
+    <string name="anti_add_manually">手动添加</string>
+    <string name="anti_remove">删除</string>
+    <string name="anti_clear">清空</string>
+    <string name="anti_ok">确定</string>
+    <string name="anti_delete">删除</string>
+    <string name="anti_remove_message">您确定要删除？</string>
+    <string name="anti_clear_message">您确定要清空？</string>
+    <string name="anti_delete_message">您确定要删除？</string>
+    <string name="anti_nothing">还没有拦截记录…</string>
+    <string name="anti_to_add">点击添加</string>
+    <string name="anti_no_black_list">&quot;请添加黑名单联系人。
+\n当拦截黑名单生效时，来自黑名单联系人的短信和电话将会被拦截至拦截记录。&quot;</string>
+    <string name="anti_no_allow_list">&quot;请添加白名单联系人。
+\n当拦截白名单模式生效时，白名单以外的联系人短信和电话将会被拦截至拦截记录。&quot;</string>
+    
+    <!-- settings -->
+    <string name="anti_enable_blocker">拦截模式</string>
+    <string name="anti_block_black_list">只拦截黑名单</string>
+    <string name="anti_accept_white_list">只接受白名单</string>
+    <string name="anti_accept_white_list_contacts">只接受白名单和联系人</string>
+    <string name="anti_settings_add_button">添加</string>
+    
+    <!-- history -->
+    <string name="anti_calllog_tab">电话</string>
+    <string name="anti_sms_tab">短信</string>
+    <string name="anti_empty_all_calllog">清空记录</string>
+    <string name="anti_empty_all_sms">删除全部</string>
+    <string name="anti_empty_all_calllog_title">清空电话记录?</string>
+    <string name="anti_empty_all_sms_title">删除全部短信</string>
+    <string name="anti_empty_all_calllog_message">确定删除所有拦截到的电话记录？</string>
+    <string name="anti_empty_all_sms_message">确定删除所有拦截到的短信？</string>
+    
+    
+    <!-- add manually -->
+    <string name="anti_input_msg">输入号码</string>
+    <string name="anti_hint_name">名称(可选l)</string>
+    <string name="anti_hint_phone">电话号码</string>
+    <string name="anti_save">保存</string>
+    <string name="anti_cancel">取消</string>
+    <string name="anti_add_manually_title">输入号码</string>
+    <string name="anti_add_failed">添加失败！号码已经存在。</string>
+        
+    <!-- add call history  or message history or contacts history-->
+    <string name="anti_add_from_call_log_title">从通话记录添加</string>
+    <string name="anti_add_from_sms_title">从短信收件箱添加</string>
+    <string name="anti_add_from_contact_title">从联系人添加</string>
+    
+    <string name="anti_no_sms">短信记录为空</string>
+    <string name="anti_add_blocklist_no_messages_msg">您的短信记录为空。请选择其他方式添加黑名单。</string>
+    <string name="anti_add_allowlist_no_messages_msg">您的短信记录为空。请选择其他方式添加白名单。</string>
+    <string name="anti_no_calllog">通话记录为空</string>
+    <string name="anti_add_blocklist_no_calllog_msg">您的通话记录为空。请选择其他方式添加黑名单。</string>
+    <string name="anti_add_allowlist_no_calllog_msg">您的通话记录为空。请选择其他方式添加白名单。</string>
+    <string name="anti_no_contacts">联系人记录为空</string>
+    <string name="anti_add_blocklist_no_contacts_msg">您的联系人记录为空。请选择其他方式添加黑名单。</string>
+    <string name="anti_add_allowlist_no_contacts_msg">您的联系人记录为空。请选择其他方式添加白名单。</string>
+    <string name="anti_btn_select_method">选择其他</string>
+    <string name="anti_notifaction_msg">拦截了%1$d 条短信和%2$d 个电话</string>
+    
+      
+    
+    
+</resources>

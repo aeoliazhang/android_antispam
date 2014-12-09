@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_margin_left_13dip">13dip</dimen>
+    
+    <dimen name="anti_divider_height">1dip</dimen>
+    <dimen name="anti_margin_2dip">2dip</dimen> 
+    
+    <dimen name="anti_margin_3dip">3dip</dimen> 
+    <dimen name="anti_margin_4dip">4dip</dimen>
+    <dimen name="anti_margin_5dip">5dip</dimen> 
+    <dimen name="anti_margin_6dip">6dip</dimen> 
+    <dimen name="anti_margin_7dip">7dip</dimen>
+    <dimen name="anti_margin_8dip">8dip</dimen>
+    <dimen name="anti_margin_9dip">9dip</dimen>
+    <dimen name="anti_margin_10dip">10dip</dimen>
+    <dimen name="anti_margin_11dip">11dip</dimen>
+    <dimen name="anti_margin_12dip">12dip</dimen>
+    <dimen name="anti_margin_13dip">13dip</dimen>
+    <dimen name="anti_margin_15dip">15dip</dimen>
+    <dimen name="anti_margin_17dip">17dip</dimen> 
+    <dimen name="anti_margin_19dip">19dip</dimen>
+    <dimen name="anti_margin_22dip">22dip</dimen>
+    <dimen name="anti_margin_24dip">24dip</dimen>
+    <dimen name="anti_margin_30dip">30dip</dimen>
+    <dimen name="anti_margin_40dip">40dip</dimen>
+    <dimen name="anti_margin_45dip">45dip</dimen>
+    <dimen name="anti_margin_50dip">50dip</dimen>
+    <dimen name="anti_margin_52dip">52dip</dimen>
+    <dimen name="anti_margin_60dip">60dip</dimen>
+     
+    <dimen name="anti_textsize_10sp">10sp</dimen> 
+    <dimen name="anti_textsize_12sp">12sp</dimen>
+    <dimen name="anti_textsize_14sp">14sp</dimen>
+    <dimen name="anti_textsize_16sp">16sp</dimen> 
+    <dimen name="anti_textsize_18sp">18sp</dimen> 
+    <dimen name="anti_textsize_19sp">19sp</dimen>    
+    <dimen name="anti_textsize_20sp">20sp</dimen>
+    <dimen name="anti_textsize_22sp">22sp</dimen> 
+</resources>

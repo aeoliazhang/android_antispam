@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="fill_parent"  
+    android:layout_height="@dimen/anti_margin_40dip"  
+    android:background="@drawable/history_tab_selector">    
+    <TextView android:textSize="@dimen/anti_textsize_16sp" 
+        android:ellipsize="marquee" 
+        android:gravity="center" 
+        android:id="@+id/tv_indicator" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:singleLine="true" 
+        android:layout_centerInParent="true" 
+        android:marqueeRepeatLimit="0" /> 
+    <ImageView android:id="@+id/image_arrow" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_alignBottom="@id/tv_indicator"
+	    android:layout_alignParentBottom="true"
+	   	android:layout_centerHorizontal="true"
+	    android:scaleType="center"
+	    android:src="@drawable/tab_arrow_up"
+	    android:contentDescription="@null"/>
+</RelativeLayout>

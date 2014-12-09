@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:background="@color/anti_color_white" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/layout_add"
+        android:orientation="horizontal"
+     	android:layout_width="fill_parent" 
+     	android:layout_height="@dimen/anti_margin_60dip" 
+     	android:baselineAligned="false" 
+     	android:layout_alignParentBottom="true">
+        <Button android:id="@+id/btn_add" 
+            android:layout_width="fill_parent"
+            android:text="@string/anti_add"  
+            android:textColor="@drawable/button_text"
+            style="@style/style_button"  
+            android:layout_marginRight="@dimen/anti_margin_5dip"
+            android:layout_weight="1.0"
+            android:layout_gravity="bottom"/>
+        <Button android:id="@+id/btn_cancel" 
+            android:layout_width="fill_parent"  
+            android:text="@string/anti_cancel"  
+            style="@style/style_button" 
+            android:layout_marginLeft="@dimen/anti_margin_5dip"
+            android:layout_weight="1.0"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout_call_list"
+        android:orientation="vertical" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_above="@id/layout_add">
+        <ListView android:id="@+id/lv_call_history_list" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:cacheColorHint="#00000000" 
+	        android:divider="@color/anti_color_list_divider" 
+	        android:dividerHeight="@dimen/anti_divider_height" 
+	        android:headerDividersEnabled="false" 
+	        android:footerDividersEnabled="true" />
+    </LinearLayout>
+</RelativeLayout>
